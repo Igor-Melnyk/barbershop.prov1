@@ -8,7 +8,9 @@
 <body>
 	<header class="page-header">
 		<div class="content-wraper">
-			<img src="#" alt="header-logo" alt="Логотип Барбершоп">
+			<div class="header-logo">
+				<img class="header-logo__img" src="images/main-logo-mobile.png" alt="header-logo" alt="Логотип Барбершоп">
+			</div>	
 			<nav class="main-nav">
 				<div class="main-nav__wraper">
 					<ul class="main-nav__list">
@@ -37,145 +39,149 @@
 		</div>
 	</header>
 	<main>
-		<section class="stat-info">
-			<header class="stat-info__header">
-				<h2>Стрижка у нас это выгодно!</h2>
-				<p>
-					Мужская стрижка требует точного подхода. Обратимся к статистике:
-				</p>
-			</header>
-			<table class="stat-info__list">
-				<tr>
-					<td class="stat-info__item">
-						1 500<sup>*</sup>
-					</td>
-					<td class="stat-info__description">
-						рублей вложений
-					</td>
-				</tr>
-				<tr>	
-					<td class="stat-info__item">
-						7 200
-					</td>
-					<td class="stat-info__description">
-						секунд времени мастера
-					</td>
-				</tr>
-				<tr>	
-					<td class="stat-info__item">
-						90 000
-					</td>
-					<td class="stat-info__description">
-						постриженных волос
-					</td>
-				</tr>
-				<tr>
-					<td class="stat-info__item">
-						500 000<sup>*</sup>
-					</td>
-					<td class="stat-info__description">
-						лайков и комплиментов
-					</td>
-				</tr>
-			</table>
-			<div class="legeng"><sup>*</sup> - приведённые данные ложь</div>
-		</section>
-		<section class="advantages">
-			<ul class="advantages__list">
-				<li class="advantages__item advantages__item--fast">
-					<strong class="advantages__title">БЫСТРО</strong>
-					<p class="advantages__phrase">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки</p>
-				</li>
-				<li class="advantages__item advantages__item--cool">
-					<strong class="advantages__title">КРУТО</strong>
-					<p class="advantages__phrase">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино. Во всяком случае внешне.</p>
-				</li>
-				<li class="advantages__item advantages__item--rich">
-					<strong class="advantages__title">ДОРОГО</strong>
-					<p class="advantages__phrase">Наши мастера — профессионалы своего делаи не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
-				</li>			
-			</ul>
-		</section>
-		<section class="news">
-			<h2 class="news__title">Новости и акции</h2>
-			<ul class="news__list">
-				<li class="news__item">
-					<time class="news__date" datetime="2019-09-29">
-						<b class="news__day">29</b>сент
-					</time>
-					<p class="news__description">
-						Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.
+		<div class="content-wraper">
+			<section class="stat-info">
+				<header class="stat-info__header">
+					<h2 class="stat-info__header__title">Стрижка у нас это выгодно!</h2>
+					<p class="stat-info__header__text">
+						Мужская стрижка требует точного подхода. Обратимся к статистике:
 					</p>
-				</li>
-				<li class="news__item">
-					<time class="news__date" datetime="2019-09-19">
-						<b>19</b>сент
-					</time>
-					<p class="news__description">
-						В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды. Спешите записаться!
-					</p>
-				</li>
-				<li class="news__item">
-					<time class="news__date" datetime="29-09-09">
-						<b>10</b>сен
+				</header>
+				<table class="stat-info__list">
+					<tr>
+						<td class="stat-info__item stat-info__stst">
+							1 500 <sup>*</sup>
+						</td>
+						<td class="stat-info__item stat-info__description">
+							рублей</br>вложений
+						</td>
+					</tr>
+					<tr>	
+						<td class="stat-info__item stat-info__stst">
+							7 200
+						</td>
+						<td class="stat-info__item stat-info__description">
+							секунд</br>времени мастера
+						</td>
+					</tr>
+					<tr>	
+						<td class="stat-info__item stat-info__stst">
+							90 000
+						</td>
+						<td class="stat-info__item stat-info__description">
+							постриженных</br>волос
+						</td>
+					</tr>
+					<tr>
+						<td class="stat-info__item stat-info__stst">
+							500 000 <sup>*</sup>
+						</td>
+						<td class="stat-info__item stat-info__description">
+							лайков и</br>комплиментов
+						</td>
+					</tr>
+				</table>
+				<div class="legeng"><sup>*</sup> - приведённые данные ложь</div>
+			</section>
+			<section class="advantages">
+				<ul class="advantages__list">
+					<li class="advantages__item advantages__item--fast">
+						<strong class="advantages__title">БЫСТРО</strong>
+						<p class="advantages__phrase">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки</p>
+					</li>
+					<li class="advantages__item advantages__item--cool">
+						<strong class="advantages__title">КРУТО</strong>
+						<p class="advantages__phrase">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино. Во всяком случае внешне.</p>
+					</li>
+					<li class="advantages__item advantages__item--rich">
+						<strong class="advantages__title">ДОРОГО</strong>
+						<p class="advantages__phrase">Наши мастера — профессионалы своего делаи не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
+					</li>			
+				</ul>
+			</section>
+			<section class="news">
+				<h2 class="news__title">Новости и акции</h2>
+				<ul class="news__list">
+					<li class="news__item">
+						<time class="news__date" datetime="2019-09-29">
+							<b class="news__day">29</b>сент
+						</time>
 						<p class="news__description">
-							Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!
+							Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.
 						</p>
-					</time>
-				</li>
-			</ul>
-			<a class="news__button button" href="#">показать все</a>
-		</section>
-		<section class="reviews">
-			<ul class="reviews__list">
-				<li class="reviews__item">
-					<img class="reviews__foto" src="#" alt="Фто Тревиса">
-					<b class="reviews__author">Трэвис Баркер</b>
-					<p class="reviews__text">
-						Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
-					</p>
-				</li>
-				<li>
-					<img class="reviews__foto" src="#" alt="Фто Тревиса">
-					<b class="reviews__author">Трэвис Баркер</b>
-					<p class="reviews__text">
-						Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
-					</p>
-				</li>
-				<li>
-					<img class="reviews__foto" src="#" alt="Фто Тревиса">
-					<b class="reviews__author">Трэвис Баркер</b>
-					<p class="reviews__text">
-						Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
-					</p>
-				</li>
-			</ul>
-			<a class="reviews__button button" href="#">оставить свой</a>
-		</section>
+					</li>
+					<li class="news__item">
+						<time class="news__date" datetime="2019-09-19">
+							<b>19</b>сент
+						</time>
+						<p class="news__description">
+							В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды. Спешите записаться!
+						</p>
+					</li>
+					<li class="news__item">
+						<time class="news__date" datetime="29-09-09">
+							<b>10</b>сен
+							<p class="news__description">
+								Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!
+							</p>
+						</time>
+					</li>
+				</ul>
+				<a class="news__button button" href="#">показать все</a>
+			</section>
+			<section class="reviews">
+				<ul class="reviews__list">
+					<li class="reviews__item">
+						<img class="reviews__foto" src="#" alt="Фто Тревиса">
+						<b class="reviews__author">Трэвис Баркер</b>
+						<p class="reviews__text">
+							Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+						</p>
+					</li>
+					<li>
+						<img class="reviews__foto" src="#" alt="Фто Тревиса">
+						<b class="reviews__author">Трэвис Баркер</b>
+						<p class="reviews__text">
+							Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+						</p>
+					</li>
+					<li>
+						<img class="reviews__foto" src="#" alt="Фто Тревиса">
+						<b class="reviews__author">Трэвис Баркер</b>
+						<p class="reviews__text">
+							Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!
+						</p>
+					</li>
+				</ul>
+				<a class="reviews__button button" href="#">оставить свой</a>
+			</section>
+		</div>	
 	</main>
 	<footer class="page-footer">
-		<section class="footer-contacts">
-			<strong class="footer-contacts__title">Барбершоп Бородинский</strong>
-			<p class="footer-contacts__adres">г. Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
-			<p class="foote-contacts__telephone">+7 (812) 555-66-66</p>
-		</section>
-		<section class="footer-social">
-			<ul class="footer-social__list">
-				<li class="footer-social__item">
-					<a class="footer-social__link footer-social__link--vk" href="#" aria-label="Мы Вконтакте">VK</a>
-				</li>
-				<li class="footer-ocial__item">
-					<a class="footer-social__link footer-social__link--fb" href="#" aria-label="Мы в Фейсбук">FB</a>
-				</li>
-				<li class="footer-social__item">
-					<a class="footer-social__link footer-social__link--insta" href="#" aria-label="Мы в Инствгрвм">Insta</a>
-				</li>
-			</ul>
-		</section>
-		<section class="footer-develop">
-			<strong class="footer-develop__title">Разработано:</strong>
-			<a class="footer-develop__link" href="#">HTML ACADEMY</a>
-		</section>	
+		<div class="content-wraper">
+			<section class="footer-contacts">
+				<strong class="footer-contacts__title">Барбершоп Бородинский</strong>
+				<p class="footer-contacts__adres">г. Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
+				<p class="foote-contacts__telephone">+7 (812) 555-66-66</p>
+			</section>
+			<section class="footer-social">
+				<ul class="footer-social__list">
+					<li class="footer-social__item">
+						<a class="footer-social__link footer-social__link--vk" href="#" aria-label="Мы Вконтакте">VK</a>
+					</li>
+					<li class="footer-ocial__item">
+						<a class="footer-social__link footer-social__link--fb" href="#" aria-label="Мы в Фейсбук">FB</a>
+					</li>
+					<li class="footer-social__item">
+						<a class="footer-social__link footer-social__link--insta" href="#" aria-label="Мы в Инствгрвм">Insta</a>
+					</li>
+				</ul>
+			</section>
+			<section class="footer-develop">
+				<strong class="footer-develop__title">Разработано:</strong>
+				<a class="footer-develop__link" href="#">HTML ACADEMY</a>
+			</section>
+		</div>
 	</footer>
 </body>
 </html>
