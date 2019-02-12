@@ -100,7 +100,74 @@
 .advantages__item--rich {
   background-image: url("../images/advantage-3-illustration.svg.png"); }
 
+.main-nav {
+  position: relative; }
+
+.main-nav__wraper {
+  display: flex;
+  justify-content: space-between; }
+
+.main-nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  list-style: none; }
+
+.main-nav__button {
+  display: block;
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  border: none;
+  background-color: #6a4d38; }
+  .main-nav__button:hover {
+    background-color: #755a46; }
+  .main-nav__button:active {
+    background-color: #6a4d38;
+    color: rgba(255, 255, 255, 0.3); }
+  .main-nav__button span {
+    width: 30px;
+    height: 4px;
+    display: block;
+    border-radius: 2px;
+    background-color: #fff; }
+
+@media (max-width: 767px) {
+  .main-nav__wraper, .main-nav__list {
+    display: block; }
+  .main-nav__wraper {
+    margin-left: 70px; }
+  .main-nav__list, .main-nav__user {
+    padding: 0; }
+    .main-nav__list a, .main-nav__user a {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 13px 0 13px 20px;
+      background-color: #826550;
+      border-bottom: 1px solid #71543f;
+      border-top: 1px solid #886e5b;
+      color: #fff;
+      font-size: 18px;
+      line-height: 24px;
+      text-decoration: none;
+      text-transform: uppercase; }
+      .main-nav__list a:hover, .main-nav__user a:hover {
+        background-color: #755a46; }
+      .main-nav__list a:active, .main-nav__user a:active {
+        background-color: #6a4d38;
+        color: rgba(255, 255, 255, 0.3); }
+  .main-nav__user a {
+    padding-left: 48px;
+    text-transform: none; } }
+
 body {
+  margin: 0;
+  padding: 0;
   background-color: #282828;
   font-family: MyriadPro-Regular; }
 

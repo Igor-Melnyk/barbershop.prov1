@@ -9,8 +9,12 @@
 			url("../fonts/MyriadPro-Regular.wof2") format("wof2");
 }
 @import "header";
-@import "page-main";
+@import "stat";
+@import "advantages";
+@import "main-nav";
 body {
+	margin: 0;
+	padding: 0;
 	background-color: #282828;
 	font-family: MyriadPro-Regular;
 }
