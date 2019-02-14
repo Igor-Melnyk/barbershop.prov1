@@ -10,7 +10,10 @@
 }
 @import "header";
 @import "page-main";
+@import "main-nav";
 body {
+	margin: 0;
+	padding: 0;
 	background-color: #282828;
 	font-family: MyriadPro-Regular;
 }
