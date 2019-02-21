@@ -100,6 +100,7 @@
 .advantages__item--rich {
   background-image: url("../images/advantage-3-illustration.svg.png"); }
 
+<<<<<<< HEAD
 .main-nav {
   position: relative; }
 
@@ -178,9 +179,9 @@
     padding-left: 48px;
     text-transform: none; } }
 
+=======
+>>>>>>> parent of b8ed71d... 2
 body {
-  margin: 0;
-  padding: 0;
   background-color: #282828;
   font-family: MyriadPro-Regular; }
 
