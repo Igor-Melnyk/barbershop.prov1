@@ -6,9 +6,6 @@
   font-family: MyriadPro-Regular;
   src: url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.wof2") format("wof2"); }
 
-.page-header {
-  outline: 1px solid red; }
-
 .header-logo {
   display: flex;
   justify-content: center;
