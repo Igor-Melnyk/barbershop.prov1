@@ -17,6 +17,19 @@
 .header-logo__img {
   height: 30px; }
 
+@media (min-width: 768px) {
+  .page-header {
+    display: flex;
+    flex-direction: column; }
+    .page-header .header-logo {
+      background-color: transparent;
+      order: 2; } }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .page-header {
+    height: 470px;
+    background-image: url("../images/bacground-header.jpg"); } }
+
 .stat-info__header {
   padding: 30px 40px;
   background-color: #fff; }
@@ -111,6 +124,11 @@
   padding-left: 10px;
   list-style: none; }
 
+.main-nav__item a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none; }
+
 .main-nav__button {
   display: none;
   padding: 0;
@@ -122,7 +140,8 @@
   transform: translatex(-100%);
   cursor: pointer;
   border: none;
-  background-color: #6a4d38; }
+  background-color: #6a4d38;
+  outline: none; }
   .main-nav__button:hover {
     background-color: #755a46; }
   .main-nav__button:active {
@@ -193,6 +212,27 @@
   .main-nav__button {
     display: block; } }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main-nav {
+    padding: 0 60px; }
+  .main-nav__list {
+    padding: 0;
+    margin: 0; }
+  .main-nav__item a {
+    display: block;
+    font-size: 18px;
+    margin-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .main-nav__user a {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #fff; }
+    .main-nav__user a span {
+      display: none; } }
+
 body {
   padding: 0;
   margin: 0;
@@ -201,6 +241,4 @@ body {
 
 .content-wraper {
   box-sizing: border-box;
-  max-width: 767px;
-  min-width: 320px;
   margin: 0 auto; }
