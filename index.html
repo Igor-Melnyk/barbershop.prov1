@@ -32,7 +32,7 @@
 					</ul>
 					<div class="main-nav__user">
 						<a href="#">
-							<svg  xmlns="http://www.w3.org/2000/svg"
+							<svg class="main-nav__img" xmlns="http://www.w3.org/2000/svg"
  								xmlns:xlink="http://www.w3.org/1999/xlink"
  								width="16px" height="16px">
 								<image  x="0px" y="0px" width="16px" height="16px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfjAhcRDDqcV6AzAAAAsElEQVQoz32ROwoCQQyGvx3GF9hYiLC9jY14Ca/gBQSvtJUHECytbKYUwTMIoqDoBcR1YzOsm/hImvlmwp/kn0RQsWWEi2fHhWNiCu7U9YXTSJsmjTJ3FN4UPBRdcVrBkypu2RY5J6ZGU3QeRGRWUhDxBNLYucDRBTISsrfCt1hUFTpqjg19Vkx+zyAyr1AQ0T54xqz/OZmb5/zTah01sFYvGfKMSxcMwP7mmV6Fbuxfm9Vhf6pNv+UAAAAASUVORK5CYII=" />
@@ -48,14 +48,15 @@
 				</button>
 			</nav>
 	</header>
-	<main>
-		<div class="content-wraper">
-			<section class="stat-info">
+	<main class="main-content">
+		<section class="stat-info">
+			<div class="content-wraper">
 				<header class="stat-info__header">
 					<h2 class="stat-info__header__title">Стрижка у нас это выгодно!</h2>
 					<p class="stat-info__header__text">
 						Мужская стрижка требует точного подхода. Обратимся к статистике:
 					</p>
+					<div class="legend legend--tablet"><sup>*</sup> - приведённые данные ложь</div>
 				</header>
 				<table class="stat-info__list">
 					<tr>
@@ -91,8 +92,9 @@
 						</td>
 					</tr>
 				</table>
-				<div class="legeng"><sup>*</sup> - приведённые данные ложь</div>
-			</section>
+				<div class="legend"><sup>*</sup> - приведённые данные ложь</div>
+			</div>
+		</section>
 			<section class="advantages">
 				<ul class="advantages__list">
 					<li class="advantages__item advantages__item--fast">
@@ -165,7 +167,7 @@
 				</ul>
 				<a class="reviews__button button" href="#">оставить свой</a>
 			</section>
-		</div>	
+			
 	</main>
 	<footer class="page-footer">
 		<div class="content-wraper">

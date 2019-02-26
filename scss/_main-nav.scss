@@ -58,7 +58,11 @@
 		transform: rotate(-45deg);
 		margin-top: -9px;
 	}
-}	
+}
+.main-nav__img {
+		margin-top: 3px;
+		opacity: 0.3;
+	}	
 @media (max-width: 767px){
 	.main-nav {
 		min-height: 50px;
@@ -127,6 +131,7 @@
 @media (min-width:768px) and (max-width:1200px) {
 	.main-nav {
 		padding: 0 60px;
+		background-color: #000;
 	}
 	.main-nav__list {
 		padding: 0;

@@ -42,7 +42,7 @@
 	font-size: 18px;
 	text-align: right;
 }
-.legeng {
+.legend {
 	padding-left: 20px;
 	font-size: 20px;
 	background-color: #242424;
@@ -82,3 +82,52 @@
 .advantages__item--rich {
 	background-image: url("../images/advantage-3-illustration.svg.png");
 }
+
+@media (max-width: 767px){
+	.legend--tablet {
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 1999px){
+	.content-wraper {
+		padding: 0 65px;
+	}
+	.legend {
+		display: none;
+	}
+	.legend--tablet {
+		display: block;
+		background-color: #fff;
+		color: rgba(0, 0, 0, 0.3);
+	}
+	.stat-info {
+		margin-top: -185px;
+	}
+	.stat-info__header {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		min-height: 185px;
+		padding-top: 35px 40px 30px;
+		.stat-info__header__title, .stat-info__header__text {
+			width: 50%;
+			box-sizing: border-box;
+		}
+		.stat-info__header__title {
+			text-align: left;
+		}
+		.stat-info__header__text {
+			padding-left: 30px;
+		}
+		&::before {
+			content: " ";
+			width: 16px;
+			height: 16px;
+			position: absolute;
+			left: -16px;
+			top: 42px;
+			background-image: url("../images/stat-info-triangle.png");
+		}
+	}
+}	
